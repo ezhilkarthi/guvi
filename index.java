@@ -10,8 +10,9 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
+		Scanner a =new Scanner (System.in);
+	int c=a.nextInt();
 	
-	int c=3;
 	 if(c<0) {
 		 System.out.println("negative");
 	 }
